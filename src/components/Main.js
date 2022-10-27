@@ -2,7 +2,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div>links</div>
+    <main>links</main>
   )
 }
 

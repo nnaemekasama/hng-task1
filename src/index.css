@@ -1,13 +1,49 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+body {
+  /* background: #fff; */
+}
+header {
+  min-height: 25vh;
+}
+main {
+  min-height: 50vh;
+}
+footer {
+  min-height: 25vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.lg-header-icon {
+  display: none;
 }
+
+.sm-header-icon {
+  position: relative;
+  left: 40%;
+  top: 20px;
+}
+
+#slack {
+  display: none;
+}
+
+.header {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+  padding: 2em 0;
+  margin: 0;
+}
+
+#profile_img {
+  height: 88px;
+  border-radius: 275px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
