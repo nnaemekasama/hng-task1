@@ -6,7 +6,7 @@
 body {
   /* background: #fff; */
 }
-header {
+/* header {
   min-height: 25vh;
 }
 main {
@@ -14,7 +14,7 @@ main {
 }
 footer {
   min-height: 25vh;
-}
+} */
 
 .lg-header-icon {
   display: none;
@@ -45,5 +45,12 @@ footer {
   border-radius: 275px;
   object-fit: cover;
   margin-bottom: 15px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
 }
 
