@@ -40,7 +40,7 @@ const Main = () => {
         {links.map((item) => (
           <div key={item.id} className='btn-container'>
             <a href={item.link} id={item.id}>
-              <button>{item.name}</button>s
+              <button>{item.name}</button>
             </a>
           </div>
         ))}
