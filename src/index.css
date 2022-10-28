@@ -12,8 +12,10 @@ body {
 
 
 .sm-header-icon {
-  display: none;
-}
+  position: relative;
+  left: 40%;
+  top: 20px;
+} 
 
 .lg-header-icon {
   position: relative;
@@ -26,11 +28,10 @@ body {
 }
 
 .header {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 100%; */
+  width: 100%;
   padding: 2em 0;
   margin: 0;
 }
@@ -69,7 +70,6 @@ button {
  }
 
  .icons {
-  border: 1px solid red;
   font-size: 30px;
   display: flex;
   align-items: center;
@@ -84,7 +84,6 @@ button {
  }
 
  footer {
-  border: 1px solid red;
   width: 100%;
   display: flex;
   align-items: center;
@@ -105,4 +104,6 @@ button {
   .ing {
     margin-top: 40px;
    }
+   
+
  }

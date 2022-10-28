@@ -4,32 +4,32 @@ const Main = () => {
 
   const links = [
     {
-      name: 'Twitter link',
+      name: 'Twitter Link',
       id: 'twitter',
       link: 'https://twitter.com/nnaemeka_san'
     },
     {
-      name: 'Zuri team',
+      name: 'Zuri Team',
       id: 'btn_zuri',
       link: 'https://training.zuri.team/'
     },
     {
-      name: 'Zuri books',
+      name: 'Zuri Books',
       id: 'books',
       link: 'https://books.zuri.team/'
     },
     {
-      name: 'Python books',
+      name: 'Python Books',
       id: 'books_python',
       link: 'https://books.zuri.team/python-for-beginners?ref_id=nnaemeka-san'
     },
     {
-      name: 'Background check for coders',
+      name: 'Background Check For Coders',
       id: 'pitch',
       link: 'https://background.zuri.team/'
     },
     {
-      name: 'Design books',
+      name: 'Design Books',
       id: 'book_design',
       link: 'https://books.zuri.team/design-rules'
     },
