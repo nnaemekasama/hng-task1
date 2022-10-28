@@ -10,7 +10,10 @@ body {
 
 }
 
-
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
 .sm-header-icon {
   position: relative;
   left: 40%;
@@ -87,8 +90,17 @@ button {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+
  }
+
+ hr {
+  margin: 0 auto;
+  width: 80%;
+ 
+
+ }
+
 
 
  @media only screen and (max-width: 800px) {

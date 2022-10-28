@@ -46,8 +46,12 @@ const Main = () => {
         ))}
       </div>
       <div className='icons'>
-        <FaSlack className='icon' />
-        <FaGithub className='icon' />
+          <a href='hng9.slack.com'>
+            <FaSlack  className='icon' />
+          </a>
+          <a href='https://github.com/nnaemekasama'>
+            <FaGithub className='icon' />
+          </a>
       </div>
     </main>
   )
