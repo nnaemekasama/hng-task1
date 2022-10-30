@@ -20,7 +20,7 @@ const Main = () => {
     },
     {
       name: 'Python Books',
-      id: 'books_python',
+      id: 'book_python',
       link: 'https://books.zuri.team/python-for-beginners?ref_id=nnaemeka-san'
     },
     {
@@ -46,12 +46,12 @@ const Main = () => {
         ))}
       </div>
       <div className='icons'>
-          <a href='hng9.slack.com'>
-            <FaSlack  className='icon' />
-          </a>
-          <a href='https://github.com/nnaemekasama'>
-            <FaGithub className='icon' />
-          </a>
+        <a href='hng9.slack.com'>
+          <FaSlack className='icon' />
+        </a>
+        <a href='https://github.com/nnaemekasama'>
+          <FaGithub className='icon' />
+        </a>
       </div>
     </main>
   )
