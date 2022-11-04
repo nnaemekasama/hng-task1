@@ -1,15 +1,18 @@
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import React from 'react'
-import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
+import ContactScreen from './components/ContactScreen'
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Main />
+    <Router className="App">
+      <Routes>
+        <Route path='/' element={<Main />} />
+        <Route path='/contact' element={<ContactScreen />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
