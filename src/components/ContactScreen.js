@@ -7,7 +7,7 @@ const [formData, setFormData] = React.useState({
     lastname:'',
     email:'',
     comments:'',
-    checkbox: true,
+    checkbox: false,
 })
 
 console.log(formData)
