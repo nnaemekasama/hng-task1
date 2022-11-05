@@ -39,6 +39,7 @@ const handleChange = (event) => {
                     name='firstname'
                     onChange={handleChange}
                     value={formData.firstname}
+                    required
                 />
             </label>
             <label className='lastname'>
@@ -50,6 +51,7 @@ const handleChange = (event) => {
                     name='lastname'
                     onChange={handleChange}
                     value={formData.lastname}
+                    required
                 />
             </label>
             </div>
@@ -62,6 +64,7 @@ const handleChange = (event) => {
                     name='email'
                     onChange={handleChange}
                     value={formData.email}
+                    required
                 />
             </label>
             <label className='message'>
@@ -72,6 +75,7 @@ const handleChange = (event) => {
                 name='comments'
                 value={formData.comments} 
                 placeholder='Send a message and i will reply as soon as possible'
+                required
             />
             </label>
             <label className='check'>
@@ -81,6 +85,7 @@ const handleChange = (event) => {
                 checked={formData.checkbox}
                 onChange={handleChange}
                 name='checkbox'
+                required
             />  
             <p>You agree to provide your data to nnaemeka_san who may contact you</p>
             </label>
